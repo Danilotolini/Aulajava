@@ -66,18 +66,21 @@ public class Tela {
 } 
 */
 /*  
-A RESOLVER
-package aula2;
-
 import javax.swing.JOptionPane;
 
 public class calculo3 {
 	public static void main(String[] args) { 
-		float num1 = float.parseFloat(JOptionPane.showConfirmDialog("Digite número 1")); 
-		float num2 = float.parseFloat(JOptionPane.showInputDialog("Digite o numero 2"));  
-		float res = num1>num2 ? num1 : num2; 
-		
-		JOptionPane.showMessageDialog(null, );
+	import javax.swing.JOptionPane;
+
+public class CJ2 {
+    public static void main(String[] args) {  
+            float valor1 = Float.parseFloat(JOptionPane.showInputDialog("Digite o 1º valor"));
+            float valor2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o 2º valor"));
+            float resultado = valor1 + valor2;
+            JOptionPane.showMessageDialog(null, valor1 + " + " + valor2 + " = " + resultado);
+    } 
+} 
+
 		
 	}
 }

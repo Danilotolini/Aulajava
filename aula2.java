@@ -65,3 +65,20 @@ public class Tela {
 }
 } 
 */
+/*  
+A RESOLVER
+package aula2;
+
+import javax.swing.JOptionPane;
+
+public class calculo3 {
+	public static void main(String[] args) { 
+		float num1 = float.parseFloat(JOptionPane.showConfirmDialog("Digite número 1")); 
+		float num2 = float.parseFloat(JOptionPane.showInputDialog("Digite o numero 2"));  
+		float res = num1>num2 ? num1 : num2; 
+		
+		JOptionPane.showMessageDialog(null, );
+		
+	}
+}
+*/

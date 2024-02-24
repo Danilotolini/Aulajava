@@ -81,4 +81,27 @@ public class calculo3 {
 		
 	}
 }
+*/ 
+/*
+package aula2;
+
+import javax.swing.JOptionPane;
+import javax.xml.bind.ParseConversionEvent;
+
+public class calculo4 {
+	public static void main(String[] args) {  
+	int valor1 = JOptionPane.showMessageDialog(null, "Alternativa errada tente novamente" );; 
+	int valor2 = JOptionPane.Interger.parseinteger(null, "Alternativa errada tente novamente" );; 
+	int resultado = valor1 + valor2;  
+	
+	JOptionPane.showConfirmDialog(null, "O resultado é de " + resultado, null, JOptionPane.YES_NO_OPTION, "" JOptionPane.QUESTION_MESSAGE); 
+	
+	if(resultado != valor1 + valor2){ 
+	JOptionPane.showMessageDialog(null, "Alternativa errada tente novamente" );
+	}else { 
+	JOptionPane.showMessageDialog(null, "Alternativa correta" );
+	}
+	
+	}
+}
 */

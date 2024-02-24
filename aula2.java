@@ -79,12 +79,22 @@ public class CJ2 {
             float resultado = valor1 + valor2;
             JOptionPane.showMessageDialog(null, valor1 + " + " + valor2 + " = " + resultado);
     } 
-} 
-
-		
+} 	
 	}
 }
-*/ 
+*/  
+/*  
+imoort javax.swing.JOptionpane;
+   public class CJ2 {
+    public static void main(String[] args) {    
+        float num1 = Float.parseFloat(JOptionPane.showInputDialog("Digite o 1º número"));
+    float num2 = Float.parseFloat(JOptionPane.showInputDialog("Digite o 2º número"));
+    float res = num1>num2 ? num1 : num2;
+    
+    JOptionPane.showMessageDialog(null,	"O maior entre " + num1	+ " e " + num2 + " é: \n" + res);
+    } 
+}  
+*/
 /*
 package aula2;
 

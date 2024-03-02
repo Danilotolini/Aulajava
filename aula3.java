@@ -317,3 +317,21 @@ public class forcompleto2 {
 
 }
 */
+// OUTRA VARIAÇÃO DO ANTERIOR O CONTINUE VAI APENAS PULAR O NUMERO SELECIONADO 
+/* 
+package aula3;
+
+public class forcompleto2 {
+
+	public static void main(String[] args) { 
+		int i = 1;
+		for(; i < 11; ++i) { 
+			if(i==7) continue; 
+			System.out.println("Valor de i = " + i);
+		} 
+		System.out.println("Próximas linhas apos o loop...");
+		System.out.println("Valor de i = " + i);
+	}
+
+}
+*/

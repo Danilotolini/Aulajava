@@ -178,4 +178,42 @@ public class breack {
 		 }
 	 }
 }
+*/ 
+//OUTRA VARIAÇÃO PORÉM MOSTRANDO AS ESTAÇÕES DO ANO JUNTO DOS MESES
+/*
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class breack {
+	 public static void main(String[] args) {  
+		 int mes = Integer.parseInt(JOptionPane.showInputDialog("Digite em numero um mês ")); 
+		 switch(mes) { 
+		 case 1: JOptionPane.showMessageDialog(null, "Janeiro",  "", JOptionPane.INFORMATION_MESSAGE);
+		 JOptionPane.showMessageDialog(null, "Mês de verão",  "", JOptionPane.INFORMATION_MESSAGE); break;   
+		 case 2: JOptionPane.showMessageDialog(null, "Fevereiro",  "", JOptionPane.INFORMATION_MESSAGE); 
+		 JOptionPane.showMessageDialog(null, "Mês de verão",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 case 3: JOptionPane.showMessageDialog(null, "Março",  "", JOptionPane.INFORMATION_MESSAGE); 
+		 JOptionPane.showMessageDialog(null, "Mês de outono",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 case 4: JOptionPane.showMessageDialog(null, "Abril",  "", JOptionPane.INFORMATION_MESSAGE);   
+		 JOptionPane.showMessageDialog(null, "Mês de outono",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 case 5: JOptionPane.showMessageDialog(null, "Maio",  "", JOptionPane.INFORMATION_MESSAGE); 
+		 JOptionPane.showMessageDialog(null, "Mês de outono",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 case 6: JOptionPane.showMessageDialog(null, "Junho",  "", JOptionPane.INFORMATION_MESSAGE); 
+		 JOptionPane.showMessageDialog(null, "Mês de inverno",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 case 7: JOptionPane.showMessageDialog(null, "Julho",  "", JOptionPane.INFORMATION_MESSAGE);  
+		 JOptionPane.showMessageDialog(null, "Mês de inverno",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 8: JOptionPane.showMessageDialog(null, "Agosto",  "", JOptionPane.INFORMATION_MESSAGE); 
+		 JOptionPane.showMessageDialog(null, "Mês de inverno",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 9: JOptionPane.showMessageDialog(null, "Setembro",  "", JOptionPane.INFORMATION_MESSAGE); 
+		 JOptionPane.showMessageDialog(null, "Mês de primavera",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 10: JOptionPane.showMessageDialog(null, "Outubro",  "", JOptionPane.INFORMATION_MESSAGE);  
+		 JOptionPane.showMessageDialog(null, "Mês de primavera",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 11: JOptionPane.showMessageDialog(null, "Novembro", "", JOptionPane.INFORMATION_MESSAGE);
+		 JOptionPane.showMessageDialog(null, "Mês de primavera",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 12: JOptionPane.showMessageDialog(null, "Dezembro",  "", JOptionPane.INFORMATION_MESSAGE);   
+		 JOptionPane.showMessageDialog(null, "Mês de verão",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 }
+	 }
+} 
 */

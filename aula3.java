@@ -299,3 +299,21 @@ public class forcompleto2 {
 
 }
 */
+//PEQUENA MUDANÇA NO CÓDIGO ANTERIOR 
+/* 
+package aula3;
+
+public class forcompleto2 {
+
+	public static void main(String[] args) { 
+		int i = 1;
+		for(; i < 11; ++i) { 
+			if(i==11) break; 
+			System.out.println("Valor de i = " + i);
+		} 
+		System.out.println("Próximas linhas apos o loop...");
+		System.out.println("Valor de i = " + i);
+	}
+
+}
+*/

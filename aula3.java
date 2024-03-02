@@ -126,3 +126,56 @@ public class ifelse3 {
 	}
 }
 */
+/* 
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class breack {
+	 public static void main(String[] args) { 
+		 int mes = Integer.parseInt(JOptionPane.showInputDialog("Digite em numero um mês ")); 
+		 switch(mes) { 
+		 case 1: JOptionPane.showMessageDialog(null, "Janeiro",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 2: JOptionPane.showMessageDialog(null, "Fevereiro",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 3: JOptionPane.showMessageDialog(null, "Março",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 4: JOptionPane.showMessageDialog(null, "Abril",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 5: JOptionPane.showMessageDialog(null, "Maio",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 6: JOptionPane.showMessageDialog(null, "Junho",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 7: JOptionPane.showMessageDialog(null, "Julho",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 8: JOptionPane.showMessageDialog(null, "Agosto",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 9: JOptionPane.showMessageDialog(null, "Setembro",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 10: JOptionPane.showMessageDialog(null, "Outubro",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 11: JOptionPane.showMessageDialog(null, "Novembro", "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 12: JOptionPane.showMessageDialog(null, "Dezembro",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 }
+	 }
+} 
+*/ 
+// EXERCICIO MODIFICADO DO ANTERIOR  
+/* 
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class breack {
+	 public static void main(String[] args) {  
+		 Date data = new Date();
+		 int mes = data.getMonth()+1;
+		 switch(mes) { 
+		 case 1: JOptionPane.showMessageDialog(null, "Janeiro",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 JOptionPane.showMessageDialog(null, "Mes de férias",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 case 2: JOptionPane.showMessageDialog(null, "Fevereiro",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 3: JOptionPane.showMessageDialog(null, "Março",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 4: JOptionPane.showMessageDialog(null, "Abril",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 5: JOptionPane.showMessageDialog(null, "Maio",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 6: JOptionPane.showMessageDialog(null, "Junho",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 7: JOptionPane.showMessageDialog(null, "Julho",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 8: JOptionPane.showMessageDialog(null, "Agosto",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 9: JOptionPane.showMessageDialog(null, "Setembro",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 10: JOptionPane.showMessageDialog(null, "Outubro",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 11: JOptionPane.showMessageDialog(null, "Novembro", "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 12: JOptionPane.showMessageDialog(null, "Dezembro",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 }
+	 }
+}
+*/

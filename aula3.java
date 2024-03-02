@@ -361,3 +361,19 @@ public class forcompleto3 {
 	}
 } 
 */
+/* 
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class areadocirculo {
+	public static void main(String[] args) {   
+		float r = Float.parseFloat(JOptionPane.showInputDialog("Digite o valor do raio "));   
+		r = r * r;
+		float pi = (float) 3.14;
+		float area = r * pi; 
+		
+		JOptionPane.showMessageDialog(null, "O Valor da area do circulo é de " + area);
+	}
+}
+*/

@@ -75,3 +75,28 @@ public class ifelse {
 	}
 }
 */
+/* 
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class ifelse3 {
+	public static void main(String[] args) {  
+	
+		int hora = Integer.parseInt(JOptionPane.showInputDialog("Digite o horário "));  
+		String dia = "Bom dia"; 
+		String tarde = "Boa tarde"; 
+		String noite = "Boa noite";  
+		
+		if (hora < 12){ 
+			JOptionPane.showMessageDialog(null, dia); 
+		}else if(hora < 18){ 
+			JOptionPane.showMessageDialog(null, tarde); 
+		} else if(hora <= 24) { 
+			JOptionPane.showMessageDialog(null, noite); 
+		}else { 
+			JOptionPane.showMessageDialog(null, "Este horário não existe"); 
+		}
+	}
+} 
+*/

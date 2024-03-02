@@ -15,3 +15,19 @@ public class aula3 {
 	}
 }
 */
+/*
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class pareimpar {
+	public static void main (String[] args) { 
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um número "));   
+		if(numero%2==0) {
+		JOptionPane.showMessageDialog(null, "O número " + numero + " é par"); 
+		} else { 
+		JOptionPane.showMessageDialog(null, "O número " + numero + " é impar");
+		}
+	}
+} 
+*/

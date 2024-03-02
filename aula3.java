@@ -282,4 +282,20 @@ public class forcompleto {
 		}
 	}
 }
+*/ 
+/* 
+package aula3;
+
+public class forcompleto2 {
+
+	public static void main(String[] args) {
+		for(int i = 1; i < 11; ++i) { 
+			if(i==7) break; 
+			System.out.println("Valor de i = " + i);
+		} 
+		System.out.println("Próximas linhas apos o loop...");
+
+	}
+
+}
 */

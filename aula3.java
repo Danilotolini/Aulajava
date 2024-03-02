@@ -48,3 +48,30 @@ public class ifelse2 {
 	}
 }
 */
+/*
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class ifelse {
+	public static void main(String[] args) { 
+		
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a sua idade ")); 
+		String crianca = "Criança"; 
+		String preadolescente = "Pre Adolescente"; 
+		String adolescente = "Adolescente"; 
+		String adulto = "Adulto";
+			
+		if(idade <= 10){ 
+			JOptionPane.showMessageDialog(null, "Você pertence ao grupo de " + crianca);
+		}else if (idade <= 13){ 
+			JOptionPane.showMessageDialog(null, "Você pertence ao grupo de " + preadolescente);  
+		}else if(idade <= 18){ 
+			JOptionPane.showMessageDialog(null, "Você pertence ao grupo de " + adolescente); 
+		}else { 
+			JOptionPane.showMessageDialog(null, "Você pertence ao grupo de " + adulto); 
+		
+		}
+	}
+}
+*/

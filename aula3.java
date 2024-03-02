@@ -100,3 +100,29 @@ public class ifelse3 {
 	}
 } 
 */
+// EXERCICIO MODIFICADO DO ANTERIOR 
+/* 
+package aula3;
+
+import java.util.Date;
+
+import javax.swing.JOptionPane;
+
+public class ifelse3 {
+	public static void main(String[] args) {  
+		Date d = new Date();
+		int hora = d.getHours();
+		String dia = "Bom dia"; 
+		String tarde = "Boa tarde"; 
+		String noite = "Boa noite";  
+		
+		if (hora < 12){ 
+			JOptionPane.showMessageDialog(null, dia); 
+		}else if(hora < 18){ 
+			JOptionPane.showMessageDialog(null, tarde); 
+		} else if(hora <= 24) { 
+			JOptionPane.showMessageDialog(null, noite); 
+		}
+	}
+}
+*/

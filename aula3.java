@@ -217,3 +217,21 @@ public class breack {
 	 }
 } 
 */
+//OUTRA VARIAÇÃO 
+/* 
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class breack {
+	 public static void main(String[] args) {  
+		 int mes = Integer.parseInt(JOptionPane.showInputDialog("Digite em numero um mês ")); 
+		 switch(mes) { 
+		 case 1: case 2: case 12: JOptionPane.showMessageDialog(null, "Verão",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 3: case 4: case 5: JOptionPane.showMessageDialog(null, "Outono",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+		 case 6: case 7: case 8: JOptionPane.showMessageDialog(null, "Inverno",  "", JOptionPane.INFORMATION_MESSAGE); break;  
+		 case 9: case 10: case 11: JOptionPane.showMessageDialog(null, "Primaveira",  "", JOptionPane.INFORMATION_MESSAGE); break; 
+	 }
+	 } 
+}
+*/

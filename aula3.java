@@ -335,3 +335,16 @@ public class forcompleto2 {
 
 }
 */
+/* 
+package aula3;
+
+public class forcompleto3 {
+
+	public static void main(String[] args) {
+		for (int x = 0; x < 48; ){ 
+			x = x + 3;
+			System.out.println("x = " + x);
+		}
+	}
+}
+*/

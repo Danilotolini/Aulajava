@@ -235,3 +235,23 @@ public class breack {
 	 } 
 }
 */
+/* 
+package aula3;
+
+import javax.swing.JOptionPane;
+
+public class ifelsepais {
+	public static void main(String[] args) {   
+		String pais = JOptionPane.showInputDialog("Isira um pais");  
+		if (pais.equalsIgnoreCase("Brasil") || pais.equalsIgnoreCase("Portugal")) {  
+			JOptionPane.showMessageDialog(null, "Bom dia!");
+		}else if(pais.equalsIgnoreCase("França")){
+				JOptionPane.showMessageDialog(null, "Bon jour!");
+		} else if(pais.equalsIgnoreCase("Argentina")|| pais.equalsIgnoreCase("Chile")|| pais.equalsIgnoreCase("Mexico")) { 
+			JOptionPane.showMessageDialog(null, "Buenos dias!"); 
+		} else { 
+			JOptionPane.showMessageDialog(null, "Good moorning");
+		}
+	}
+}
+*/

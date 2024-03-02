@@ -348,3 +348,16 @@ public class forcompleto3 {
 	}
 }
 */
+//OU PARA SOMAR MULTIPLOS DE 3 
+/* 
+package aula3;
+
+public class forcompleto3 {
+
+	public static void main(String[] args) {
+		for (int x = 0; x < 48; i+=3 ){ 
+			System.out.println("x = " + x);
+		}
+	}
+} 
+*/

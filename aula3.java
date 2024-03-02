@@ -271,3 +271,15 @@ public class while2 {
 		}
 } 
 */
+/* 
+package aula3;
+
+public class forcompleto {
+	public static void main(String[] args) { 
+		for(int a = 0 ; a < 600 ; a++) { 
+			System.out.println("a = " + a);
+			if(a==50) break;
+		}
+	}
+}
+*/

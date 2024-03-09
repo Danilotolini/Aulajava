@@ -213,3 +213,18 @@ import javax.swing.JOptionPane;
 	} 
 	}
 */ 
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class calculoinss {
+	public static void main(String[] args) {  
+		Double aulas = Double.parseDouble(JOptionPane.showInputDialog("Digite o numero de aulas dadas"));    
+		Double valor = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor da aula")); 
+		Double aulavalor = aulas * valor; 
+		Double INSS = (aulavalor / 100) * 89; 
+		JOptionPane.showMessageDialog(null, "Seu salario liquido sera de " + INSS);
+	}
+}
+*/

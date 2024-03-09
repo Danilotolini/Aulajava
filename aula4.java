@@ -110,3 +110,16 @@ public class mediaaritmetica {
 }
 */ 
 /* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class nometeclado {
+	public static void main(String[] args) {  
+		String nome = JOptionPane.showInputDialog("Insira o seu nome"); 
+		for(int i = 0; i <= 10; i++) { 
+			System.out.println(nome);
+		}
+	}
+}
+*/

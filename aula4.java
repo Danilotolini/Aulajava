@@ -92,3 +92,21 @@ public class anobissexto {
 	}  
  */ 
 /*
+package aula4;
+
+public class mediaaritmetica {
+	public static void main(String[] args) { 
+		int oito = 8, nove = 9, sete = 7; 
+		int quatro = 4, cinco = 5, seis = 6; 
+		int media1 = (oito + nove + sete) / 3; 
+		int media2 = (quatro + cinco + seis) / 3;  
+		int somamedia = media1 + media2; 
+		int media3 = (somamedia) / 2; 
+		System.out.println("A média aritmética dos números 8,9 e 7 é " + media1); 
+		System.out.println("A media dos numeros 4, 5 e 6 é " + media2);
+		System.out.println("A soma das duas médias é" + somamedia);
+		System.out.println("A media das medias são " + media3);
+	}
+}
+*/ 
+/* 

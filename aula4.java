@@ -45,3 +45,16 @@ public class aula4 {
 	}
 }
 */
+/* 
+package aula4;
+
+public class copa {
+	public static void main(String[] args) { 
+		for (int ano1 = 1930; ano1 <= 2024; ano1 += 4) {  
+			if(ano1 == 1042 || ano1 == 1946) { continue; 
+			} 
+			System.out.println("copa do mundo de " + ano1 + "."); 		
+		}
+	} 
+}
+*/

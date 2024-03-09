@@ -182,3 +182,18 @@ public class quadrado {
 	}
 }
 */
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+	public class produto {
+	public static void main(String[] args) { 
+		int produto = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do prduto"));  
+		int divisao = produto / 100; 
+		int desconto = divisao * 91; 
+		
+		JOptionPane.showMessageDialog(null, "O valor do produto com desconto é de = " + desconto);
+} 
+	}
+*/

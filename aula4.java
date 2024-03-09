@@ -137,3 +137,48 @@ public class antecessor {
 	}
 } 
 */ 
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class ajuste10porcento {
+	public static void main(String[] args) {  
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero "));
+		float divisao = numero / 100; 
+		float multiplicacao = divisao * 10;
+		float resultado = multiplicacao + numero;
+		
+		
+		JOptionPane.showMessageDialog(null, resultado );
+	}
+}
+
+*/ 
+//MAI SIMPLES 
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class ajuste10porcento {
+	public static void main(String[] args) {  
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero "));
+		System.out.println("Digitando = " + numero); 
+		System.out.println("O valor em 10% é = " + numero * 1.1);
+	}
+}
+
+*/ 
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class quadrado {
+	public static void main(String[] args) { 
+		int valor = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do quadrado")); 
+		JOptionPane.showMessageDialog(null, "O valor ao quadrado de " + valor + " é " + valor * valor);
+	}
+}
+*/

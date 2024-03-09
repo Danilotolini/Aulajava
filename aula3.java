@@ -377,3 +377,22 @@ public class areadocirculo {
 	}
 }
 */
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class algoritmo {
+	public static void main(String[] args) {  
+		int primeirovalor = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro numero")); 
+		int segundovalor = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo numero")); 
+		JOptionPane.showMessageDialog(null, "A soma dos dois valores é de " + (primeirovalor + segundovalor));
+		for( int i = primeirovalor + 1; i < segundovalor; i++) {  
+			if(i%2==0) { 
+				System.out.println(i); 
+			}
+		}
+}
+} 
+*/ 
+/*

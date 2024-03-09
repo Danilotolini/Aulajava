@@ -197,3 +197,19 @@ import javax.swing.JOptionPane;
 } 
 	}
 */
+//OUTRO METODO SÓ QUE ESTA COM ERRO  
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+	public class produto {
+	public static void main(String[] args) { 
+		Double produto = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do prduto"));   
+		Double desconto = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do desconto"));  
+		
+		JOptionPane.showMessageDialog(null, "O valor do produto é de = " + produto);
+		JOptionPane.showMessageDialog(null, "O valor do produto com desconto é de = " + produto - (produto * desconto/100));
+	} 
+	}
+*/ 

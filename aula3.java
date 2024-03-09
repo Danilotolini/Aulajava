@@ -396,3 +396,21 @@ public class algoritmo {
 } 
 */ 
 /*
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class quadrado15a200 {
+		public static void main(String[] args) {  
+			int primeirovalor = 15;
+			int segundovalor = 200;
+			for( int i = primeirovalor; i <= segundovalor; i++) {   
+					System.out.println(i);  
+					
+				System.out.println("O quadrado do valor de " + i + " é " + i*i);
+				}
+			}
+		} 
+
+
+*/

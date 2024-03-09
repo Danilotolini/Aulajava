@@ -228,3 +228,16 @@ public class calculoinss {
 	}
 }
 */
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class conversão {
+	public static void main(String[] args) {  
+		Double celsius = Double.parseDouble(JOptionPane.showInputDialog("Digite a temperatura em graus Celsius"));
+		Double resultado = (celsius * 9/5) + 32; 
+		JOptionPane.showMessageDialog(null, "O valor de " + celsius + " graus celsius convertido em Fahrenheit é de " + resultado);
+}
+}
+*/

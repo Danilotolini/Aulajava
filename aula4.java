@@ -123,3 +123,17 @@ public class nometeclado {
 	}
 }
 */
+/* 
+package aula4;
+
+import javax.swing.JOptionPane;
+
+public class antecessor {
+	public static void main(String[] args) {  
+		int numerointeiro = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero ")); 
+		int antecessor = numerointeiro - 1; 
+		int sucessor = numerointeiro + 1; 
+		JOptionPane.showMessageDialog(null, antecessor + " , " + numerointeiro + " , " + sucessor );
+	}
+} 
+*/ 

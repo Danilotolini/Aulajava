@@ -23,3 +23,25 @@ public class aula4 {
 	}
 }
 */
+/* 
+ackage aula4;
+
+import javax.swing.JOptionPane;
+
+public class aula4 {
+	public static void main(String[] args) { 
+		String mes = JOptionPane.showInputDialog("Digite um mês em numerico"); 
+		switch(mes.toUpperCase) { 
+		case "Janeiro": case "Março": case "Maio": case "Julho": case "Agosto": case "Outubro": case "Dezembro": 
+			JOptionPane.showMessageDialog(null, "O mês de " +  mes + " tem 31 dias"); break; 
+		case "Fevereiro": 
+			JOptionPane.showMessageDialog(null, "O mês de " + mes + " tem 29 dias"); break; 
+		
+		case "Abril":  case "Junho":  case "Setembro": case "Novembro": 
+			JOptionPane.showMessageDialog(null, "O mês de " + mes + "tem 30 dias"); break;
+		
+	
+		}
+	}
+}
+*/

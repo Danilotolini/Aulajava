@@ -414,3 +414,19 @@ public class quadrado15a200 {
 
 
 */
+/* package aula4;
+
+public class divisivelpor4 {
+
+	public static void main(String[] args) {
+		int primeironumero = 4; 
+		int segundonumero = 200; 
+		for( int i = primeironumero; i <= segundonumero; i++) { 
+			if(i%4 ==0) { 
+				System.out.print(" "+ i);
+			}
+
+	}
+	}
+	}
+*/

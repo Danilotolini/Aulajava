@@ -11,16 +11,19 @@ public class Carro {
 /* 
 package aula5;
 
-public class Carroapp {
+public class Carroapp extends Veiculo {
 	public static void main(String[] args) {
 		Carro amg = new Carro(); 
 		amg.marca = "Mercedes"; 
 		amg.modelo = "CLA35"; 
 		amg.anoFabricacao = 2021; 
-		amg.cor = "verde";  
+		amg.cor = "verde"; 
 		
-System.out.println( "Marca: " + amg.marca  + "Modelo: " 
-+ amg.modelo + "Ano de Fabricação: " +  amg.anoFabricacao + "cor: " + amg.cor);
+		Carro c2 = new Carro(); 
+		
+System.out.println( "Marca: " + amg.marca  + "\nModelo: " 
++ amg.modelo + "\nAno de Fabricação: " +  amg.anoFabricacao + "\ncor: " + amg.cor);
 	}
 }
+
 */

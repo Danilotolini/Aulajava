@@ -37,3 +37,58 @@ public class Funcionario {
 	
 }
 */
+/* 
+package aula6;
+
+public class Carro {
+	private String modelo; 
+	private double potencia; 
+	private String cor; 
+	
+	public void setmodelo(String modelo) { 
+		this.modelo = modelo; 
+	} 
+	
+	public String getmodelo() {
+	return modelo; 
+} 
+	public void setpotencia(double potencia) { 
+		this.potencia = potencia;
+	} 
+	
+	public double getpotencia() { 
+		return potencia;
+	} 
+	
+	public void setcor(String cor) { 
+		this.cor = cor;
+	} 
+	
+	public String getcor() { 
+		return cor;
+	}
+}
+//------------------------------------------------------------------------------------------------------------------------------------------ 
+package aula6;
+
+import javax.swing.JOptionPane;
+
+public class modeloscarros{
+	public static void main(String[] args) { 
+		Carro carroPasseio = new Carro(); 
+		carroPasseio.setcor(JOptionPane.showInputDialog("Insira a cor")); 
+		carroPasseio.setmodelo(JOptionPane.showInputDialog("Insira o modelo")); 
+		carroPasseio.setpotencia(Double.parseDouble(JOptionPane.showInputDialog("Insira o valor da potencia"))); 	 
+		
+		Carro carroUtilitario = new Carro(); 
+		carroUtilitario.setcor(JOptionPane.showInputDialog("Insira a cor")); 
+		carroUtilitario.setmodelo(JOptionPane.showInputDialog("Insira o modelor")); 
+		carroUtilitario.setpotencia(Double.parseDouble(JOptionPane.showInputDialog("Insira o valor da potencia"))); 	 
+		System.out.println("Carro de Passeio: " + "\nCor: " + carroPasseio.getcor() + "\nModelo: " + carroPasseio.getmodelo() + 
+				"\nPotencia: " + carroPasseio.getpotencia() + "\n---------------------------------------------------"); 
+		
+		System.out.println("Carro de Passeio: " + "\nCor: " + carroUtilitario.getcor() + "\nModelo: " + carroUtilitario.getmodelo() + 
+				"\nPotencia: " + carroUtilitario.getpotencia());
+	}
+}
+*/

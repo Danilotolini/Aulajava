@@ -219,4 +219,49 @@ public class Filmes {
 }
 */ 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-			      
+/* 
+package aula6;
+
+public class Calculadora {
+	double soma(double valor1, double valor2){
+		return valor1 + valor2;
+	}
+	double subtracao(double valor1 , double valor2) { 
+		return valor1 - valor2;
+	} 
+	double multiplicacao(double valor1 , double valor2) { 
+		return valor1 * valor2;
+}
+	double divisao(double valor1 , double valor2) { 
+		return valor1 / valor2; 
+} 
+} 
+//=========================================================================================================================================== 
+/*
+import javax.swing.JOptionPane;
+
+public class UsaCalculadora {
+	public static void main(String args[]){
+		Calculadora calc = new Calculadora();
+		double num1 = Double.parseDouble(JOptionPane.showInputDialog(
+				"Digite o 1º número:"));
+		double num2 = Double.parseDouble(JOptionPane.showInputDialog(
+				"Digite o 2º número:"));
+		
+		System.out.println(num1 + " + " + num2 + " = " 
+				+ calc.somar(num1, num2));
+		System.out.println(num1 + " - " + num2 + " = " 
+				+ calc.subtrair(num1, num2));
+		System.out.println(num1 + " * " + num2 + " = " 
+				+ calc.multiplicar(num1, num2));
+		if(num2==0) {
+			JOptionPane.showMessageDialog(null, "Não existe divisão por ZERO. "
+					+ "\nFavor digitar novamente.");
+			num2 = Double.parseDouble(JOptionPane.showInputDialog(
+					"Digite o 2º número:"));
+		}
+		System.out.println(num1 + " / " + num2 + " = " 
+				+ calc.dividir(num1, num2));
+	}
+} 
+*/

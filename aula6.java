@@ -68,7 +68,7 @@ public class Carro {
 		return cor;
 	}
 }
-//------------------------------------------------------------------------------------------------------------------------------------------ 
+//===========================================================================================================================================
 package aula6;
 
 import javax.swing.JOptionPane;
@@ -114,8 +114,7 @@ public class Garagem {
 	
 }
 
-
-====================================================================
+//=============================================================================================================================================
 package aula05.lab.cap5Lab2.carro;
 public class Cap5_Lab2 {
 	public static void main(String[] args) {		
@@ -152,5 +151,72 @@ public class Cap5_Lab2 {
 	}
 
 } 
-*/
-//https://we.tl/t-B5KAoFRsaB
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/ 
+//PARA O PROJETO IMDB
+//LINK AQUIVO ---> https://we.tl/t-B5KAoFRsaB
+//CODIGO INICIAL CLASSE FILME
+/* 
+public class Filmes { 
+	private String titulo; 
+	private String diretores; 
+	private int nota; 
+	private int duracao; 
+	private int ano; 
+	private String generos; 
+	private int numdevotos;
+	private String url;
+	public String getTitulo() {
+		return titulo;
+	}
+	public void settitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public String getdiretores() {
+		return diretores;
+	}
+	public void setdiretores(String diretores) {
+		this.diretores = diretores;
+	}
+	public int getnota() {
+		return nota;
+	}
+	public void setnota(int nota) {
+		this.nota = nota;
+	}
+	public int getduracao() {
+		return duracao;
+	}
+	public void setduracao(int duracao) {
+		this.duracao = duracao;
+	}
+	public int getano() {
+		return ano;
+	}
+	public void setano(int ano) {
+		this.ano = ano;
+	}
+	public String getgeneros() {
+		return generos;
+	}
+	public void setgeneros(String generos) {
+		this.generos = generos;
+	}
+	public int getnumdevotos() {
+		return numDeVotos;
+	}
+	public void setnumdevotos(int numDeVotos) {
+		this.numDeVotos = numDeVotos;
+	}
+	public String geturl() {
+		return url;
+	}
+	public void seturl(String url) {
+		this.url = url;
+	} 
+	
+
+}
+*/ 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+			      

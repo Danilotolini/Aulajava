@@ -132,3 +132,48 @@ public class Cap6_Lab2 {
 				+ "1 int e um double: " + calc.subtrair(6, 3.2));		
 	}
 }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+public class Cap6_Lab3 {
+	public static void main(String[] args) {
+		Aluno joao = new Aluno();
+		joao.setNome("João");
+		joao.imprimeAluno();
+		System.out.println("Contagem no objeto joao: " 
+		+ joao.contadorDeAlunos + "\n");
+		
+		Aluno maria = new Aluno();
+		maria.setNome("Maria");
+		maria.imprimeAluno();
+		System.out.println("Contagem no objeto maria: " 
+		+ maria.contadorDeAlunos + "\n");
+		
+		Aluno marcos = new Aluno();
+		marcos.setNome("Marcos");
+		marcos.imprimeAluno();
+		System.out.println("Contagem no objeto marcos: " 
+		+ marcos.contadorDeAlunos + "\n");
+	
+		// impress�o usando a refer�ncia est�tica correta:
+		System.out.println("Contador acessado diretamente da classe: " 
+		+ Aluno.contadorDeAlunos);
+		
+	}
+
+} 
+=================================================================================================================================================== 
+public class Aluno {
+	public static int contadorDeAlunos;
+	private String nome;	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public void imprimeAluno() {
+		System.out.println("Aluno: " + this.nome);
+	}	
+	public Aluno() {
+		contadorDeAlunos++;
+	}
+} 

@@ -4,7 +4,7 @@ import model.Contatos;
 
 public class Contatoscontroller {
 	public void listarContatos(Contatos c) {  
-		System.out.println("Nome: " + c.getNome() + "Idade: " + c.getIdade());
+		System.out.println("Nome: " + c.getNome() + "\nIdade: " + c.getIdade());
 	}
 }
 ===================================================================================================================================== 
@@ -50,4 +50,29 @@ public class Contatoslista {
 			c2.listarContato(c2);
 		}
 	} 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+//PARA ESCOLHER O QUANTO DE CONTATOS ADICIONAR Adicione esse codigo a classe Contatoslista  
+package view;
+
+import javax.swing.JOptionPane;
+
+import model.Contatos;
+
+public class Contatoslista { 
+	public static void main(String[] args) {
+			int qtd = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade a cadastrar")); 
+			Contatos contatos[] = new Contatos[qtd]; 
+			
+			for(int i=0; i < contatos.length; i++) { 
+				String nome = JOptionPane.showInputDialog("Digite o nome"); 
+				int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade")); 
+				Contatos c = new Contatos(); 
+				c.setNome(nome); 
+				c.setIdade(idade); 
+				contatos[i] = c; 
+			}  
+			for(int i=0; i < contatos.length; i++) {  
+				contatos[i].listarContato(contatos[i]);
+			}
+		}
+	} 

@@ -51,7 +51,7 @@ public class Contatoslista {
 		}
 	} 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
-//PARA ESCOLHER O QUANTO DE CONTATOS ADICIONAR Adicione esse codigo a classe Contatoslista  
+//PARA ESCOLHER O QUANTO DE CONTATOS ADICIONAR Adicione este codigo a classe Contatoslista  
 package view;
 
 import javax.swing.JOptionPane;

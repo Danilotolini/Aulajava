@@ -93,4 +93,27 @@ public class Cap8Lab02 {
 		return soma;
 	}
 }
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+//Exercício adicional
+import javax.swing.JOptionPane;
+import Laboratorios.Cap_08.Cap8_Lab2;
+
+public class ExemploEntradaDados {
+	public static void main(String[] args) {  
+		int qtd = Integer.parseInt(JOptionPane.showInputDialog(
+				"Digite a quantidade de idades a cadastrar:"));
+		int idades[] = new int[qtd];		
+		preencherVetor(idades);		
+		Cap8_Lab2.imprimirVetor(idades);
+		double media = Cap8_Lab2.somarVetor(idades)/idades.length;            
+		System.out.println("\nA média das idades:");            
+		System.out.println("é de : " + media + " anos.");            
+	} 
+	private static void preencherVetor(int[] idades) {
+		for (int i = 0; i < idades.length; i++) {
+			idades[i] = Integer.parseInt(JOptionPane.showInputDialog(
+					"Digite a " + (i+1) + "ª idade:"));
+		}
+	}	
+} 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

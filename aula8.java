@@ -63,4 +63,34 @@ public class ExemploArgumentosPrograma {
 	}
 } 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+package aula8;
 
+public class Cap8Lab02 {
+	int soma = 0; 
+	public static void main(String[] args) {  
+		if (args.length > 0) {
+			imprimirVetor(args);
+			double media = somarVetor(args)/args.length;            
+			System.out.println("\nA média das idades:");            
+			System.out.println("é de : " + media + " anos.");            
+		} 
+		else {
+			System.out.println("Entre com valores válidos para as idades");
+		}
+	}
+	//método para impressão do vetor
+	private static void imprimirVetor(String[] vetor) {
+		for (String i : vetor) {
+			System.out.print(i + " ");
+		}
+	}
+	//método para somar valores do vetor
+	private static double somarVetor(String[] vetor) {
+		int soma=0;
+		for (int i = 0; i < vetor.length; i++) {
+			soma += Integer.parseInt(vetor[i]);
+		}
+		return soma;
+	}
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -46,4 +46,21 @@ public class ExemploSimplesArrayBidimensional {
 		}
 	}
 } 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+package aula8;
+
+public class ExemploArgumentosPrograma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		for (int i = 0; i < args.length; i++) {
+			System.out.println("Elemento: " + args[i]); 
+			
+			System.out.println("\nagora com foreach: "); 
+			for(String s: args) 
+				System.out.println(s);
+		}
+	}
+} 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
